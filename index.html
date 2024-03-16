@@ -66,9 +66,19 @@
             <div class="job5">KFC</div>
         </div>
         <div class="contact-form-container">
-            <form action="submit">
-                <input type="text" name="name" id="name" placeholder="Enter Name">
-                <input type="email" name="email" id="email" placeholder="">
+            <form action="someJSFile" name="contact-form" target="_blank" autocomplete="on">
+                <fieldset class="name-email">
+                    <label for="first-name">First Name: </label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Jane">
+                    <label for="last-name">Last Name: </label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Doe">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="">
+                </fieldset>
+                <label for="text-area">Extra Information: 
+                    <textarea name="text-area" id="text-area" cols="30" rows="5">Place questions, concerns or request for meeting here.</textarea>
+                </label>
+                <input type="submit">
             </form>
         </div>
         <footer>
