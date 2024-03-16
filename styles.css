@@ -82,7 +82,7 @@ color: transparent;
     width: 400px;
 }
 
-.container1 {
+.intro-container {
     display: grid;
     gap: 3rem;
     grid-template-columns: repeat(3, 1fr);
@@ -109,7 +109,7 @@ color: transparent;
     grid-column: span 2;
 }
 
-.container2 {
+.education-boxes {
     display: grid;
     gap: 10px;
     width: 80%;
@@ -156,4 +156,20 @@ color: transparent;
     padding: 10px;
     grid-column: 4;
     grid-row: 1 / 3;
+}
+
+footer {
+    background-color: #333;
+    border-top: 1px solid black;
+    margin-top: 100px;
+    height: 50px;
+}
+
+.footer-text {
+    color: linen;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    height: 50px;
 }
