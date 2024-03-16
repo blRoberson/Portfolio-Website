@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+html {
+    background: #124559;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #AEC3B0;
+    width: 100%;
+    height: 15%;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navlinks {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+    height: 100%;
+}
+
+.navlinks a:hover {
+    color: #EFF6E0;
+    background-color: #124559;
+    border-radius: 80px;
+}
+
+.link {
+    padding: 10px;
+}
+
+.link a {
+    padding: 10px;
+    color: #01161E;
+    font-size: 1.3rem;
+}
+
+.logo img {
+    display: flex;
+    width: 65px;
+    margin-left: 40px;
+}
+
+.contact {
+    padding: 20px;
+    border: none;
+    color: #AEC3B0;
+}
+
+.contact:hover {
+    color: #01161E;
+}
+
+.navbar button {
+    background-color: #01161E;
+    border-radius: 50px;
+    margin: 5px;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+.navbar button:hover {
+    background-color: #598392;
+}
+
+.intro_box span {
+color: transparent;
+-webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.intro_text p {
+    width: 400px;
+}
+
+.container1 {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5% auto;
+    width: 80%;
+}
+
+.intro_box {
+    grid-column: span 2;
+    padding-left: 10%;
+}
+
+.intro_box h1,
+.intro_box span {
+    font-size: 56px;
+    font-family: lato, sans-serif;
+}
+
+.intro_text p {
+    font-size: 1.5rem;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.container2 {
+    display: grid;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cs2 {
+    box-shadow: 0 0 8px black;
+}
+
+.text1 {
+    background-color: #0FA3B1;
+    color:#000000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text2 {
+    background-color: #01161E;
+    color: #AEC3B0;   
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+.text3 {
+    background-color: #01161E;
+    color: #AEC3B0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text4 {
+    background-color: #01161E;
+    color: #AEC3B0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text5 {
+    background-color: #01161E;
+    color: #AEC3B0;
+    border-radius: 10px;
+    padding: 10px;
+    grid-column: 4;
+    grid-row: 1 / 3;
+}
